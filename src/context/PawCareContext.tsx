@@ -187,7 +187,7 @@ function reducer(state: PawCareState, action: Action): PawCareState {
 }
 
 // ── Context value ────────────────────────────────────────
-interface pet. chabge {
+interface pet.PawCareContextValue {
   state: PawCareState;
   // Auth
   login: (email: string, password: string) => User | null;
